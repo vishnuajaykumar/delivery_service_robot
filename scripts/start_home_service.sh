@@ -23,7 +23,7 @@ xterm -e "source devel/setup.bash; roslaunch turtlebot_rviz_launchers view_navig
 sleep 5
 
 # Run the pick_objects node
-xterm -e "rosrun add_markers add_markers"&
+xterm -e "rosrun add_markers start_home_service"&
 
 sleep 5
 
